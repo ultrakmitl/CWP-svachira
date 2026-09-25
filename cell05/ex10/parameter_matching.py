@@ -3,9 +3,9 @@ import sys
 if len(sys.argv) != 2:
     print("none")
 else:
-    print(f"What was parameter? {sys.argv[1]}")
-
-    if sys.argv[1] == "Hello":
+    key = sys.argv[1]
+    word = input("What was the parameter? ")
+    if key == word:
         print("Good job!")
     else:
         print("Nope, sorry...")
